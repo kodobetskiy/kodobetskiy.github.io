@@ -25,6 +25,10 @@ a {
   color: #0880FF;
 }
 
+a:hover {
+  color: #F91773;
+}
+
 h1 {
 font-weight: 800;
 }
