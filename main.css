@@ -1,0 +1,42 @@
+html *
+{
+  font-size: 18px;
+   line-height: 1.4;
+   color: #212121;
+   font-family: Helvetica;
+  background-color: #F8F7F7;
+}
+
+body{
+  margin-top: 10em;
+  }
+
+#page-wrap {
+     width: 750px;
+     margin: 0 auto;
+}
+
+img{
+    width:100%;
+    max-width:800px;
+}
+
+a {
+  color: #0880FF;
+}
+
+h1 {
+font-weight: 800;
+}
+
+
+h2 {
+  color: #474747;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+
+.main-head {
+  grid-area: header;
+}
