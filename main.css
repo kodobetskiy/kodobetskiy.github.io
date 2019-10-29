@@ -8,7 +8,7 @@ html *
 }
 
 .profile {
-  height: 120px;
+  height: 10vh;
   width: auto;
   box-shadow: none;
   margin: auto;
