@@ -35,10 +35,7 @@ body{
 }
 
 .projectPhoto {
-  margin: 0 auto;
-  width:90vw;
-  height: auto;
-  max-width:740px;
+  width:100%;
   box-shadow: 0 2px 60px rgba(0, 0, 0, 0.18);
 }
 
@@ -60,7 +57,7 @@ font-weight: 800;
 
 
 h2 {
-  color: #474747;
+  color: #3A125D;
   font-size: 17px;
   font-weight: 600;
 
