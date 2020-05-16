@@ -1,41 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html *
 {
   font-size: 18px;
   line-height: 1.4;
   color: #212121;
   font-family: Helvetica;
-  background-color: #FFFFFF;
 }
 
 .profile {
   height: 10vh;
   width: auto;
   box-shadow: none;
-  margin: auto;
-}
+  margin-bottom: : 40px;
 
-.projects {
-font-size: 16px;
-color:#3275C3;
-line-height: 1.5;
-padding: .5em 2em;
-background: #EBF4FF;
-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.20);
-border-radius: 5px;
 }
-
-body{
-  margin-top: 8em;
-  }
 
 #page-wrap {
-     max-width: 750px;
-     margin: auto;
-     padding: 40px;
+  margin:0 auto;
+  max-width: 850px;
+  padding: 40px;
+  padding-top: 80px;
 }
 
 .projectPhoto {
-  width:100%;
+  width: 100%;
+  margin:0px;
+  overflow:hidden;
   box-shadow: 0 2px 60px rgba(0, 0, 0, 0.18);
 }
 
@@ -47,12 +41,19 @@ a {
   color: #0880FF;
 }
 
+p {
+  margin-bottom: 20px;
+}
+
 a:hover {
   color: #F91773;
 }
 
 h1 {
 font-weight: 800;
+margin-bottom: 10px;
+margin-top: 10px;
+
 }
 
 
@@ -60,9 +61,7 @@ h2 {
   color: #3A125D;
   font-size: 17px;
   font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px;
 
-}
-
-.main-head {
-  grid-area: header;
 }
